@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.pnpm-store/
+
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+*.tsbuildinfo
+
+website/.next/
+website/node_modules/

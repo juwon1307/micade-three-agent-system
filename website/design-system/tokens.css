@@ -1,0 +1,69 @@
+:root {
+  --micade-color-ink: #172a2f;
+  --micade-color-ink-muted: #52656a;
+  --micade-color-brand: #123b43;
+  --micade-color-brand-strong: #0b2d34;
+  --micade-color-growth: #2e9b62;
+  --micade-color-growth-strong: #207447;
+  --micade-color-accent: #d98b45;
+  --micade-color-surface: #ffffff;
+  --micade-color-surface-muted: #f3f6f4;
+  --micade-color-border: #d7e1de;
+  --micade-color-danger: #b43d3d;
+  --micade-color-focus: #d98b45;
+
+  --micade-font-sans: "Inter", "Segoe UI", Arial, sans-serif;
+  --micade-font-display: "Inter", "Segoe UI", Arial, sans-serif;
+  --micade-font-size-xs: 0.75rem;
+  --micade-font-size-sm: 0.875rem;
+  --micade-font-size-md: 1rem;
+  --micade-font-size-lg: 1.25rem;
+  --micade-font-size-xl: 1.75rem;
+  --micade-font-size-2xl: 2.5rem;
+
+  --micade-space-1: 0.25rem;
+  --micade-space-2: 0.5rem;
+  --micade-space-3: 0.75rem;
+  --micade-space-4: 1rem;
+  --micade-space-6: 1.5rem;
+  --micade-space-8: 2rem;
+  --micade-space-12: 3rem;
+  --micade-space-16: 4rem;
+
+  --micade-radius-sm: 0.25rem;
+  --micade-radius-md: 0.5rem;
+  --micade-shadow-sm: 0 1px 3px rgb(23 42 47 / 0.12);
+  --micade-content-width: 72rem;
+  --micade-focus-ring: 0 0 0 3px rgb(217 139 69 / 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--micade-color-surface);
+  color: var(--micade-color-ink);
+  font-family: var(--micade-font-sans);
+  font-size: var(--micade-font-size-md);
+  line-height: 1.6;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 0;
+  box-shadow: var(--micade-focus-ring);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
