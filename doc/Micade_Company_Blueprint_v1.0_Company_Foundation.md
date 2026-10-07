@@ -9,52 +9,55 @@ Supporting agent: Enterprise Architecture Agent
 
 ## 1.1 Company Category
 
-Micade is an integrated digital growth company.
+Micade is a founder-led digital presence and growth company.
 
-Micade combines technology, education, AI, software, and digital growth to help small businesses learn, build, and grow.
+Micade combines frontend development, digital marketing, and education. It begins with a focused service for fashion designers in Lagos.
 
 ## 1.2 Company Purpose
 
-Micade exists to help small businesses become more capable, visible, efficient, and competitive in the digital economy.
+Micade exists to help fashion designers own a professional digital home instead of depending entirely on social platforms.
 
-The company should connect strategy, learning, implementation, automation, and growth support into one practical ecosystem.
+The founder's experience as a developer, digital marketer, and instructor shapes an approach that combines implementation with patient explanation.
 
 ## 1.3 First Priority Audience
 
-Approved first priority audience:
+Approved first launch audience:
 
-- Small businesses
+- Independent fashion designers in Lagos.
 
-Approved first launch segment:
+Working customer problems:
 
-- Local service businesses
+- Heavy dependence on Instagram and WhatsApp.
+- Difficulty presenting clothing and collections professionally.
+- Difficulty attracting new customers consistently.
+- No owned digital destination for the brand.
 
-Local service businesses are a practical first segment because they often need clearer websites, stronger local visibility, better lead generation, workflow automation, customer communication systems, and simple AI adoption.
+These problems are hypotheses to validate through customer interviews.
 
 ## 1.4 Initial Company Offers
 
-Proposed initial offer categories:
+Proposed launch offer categories:
 
-- Digital presence: websites, landing pages, business profiles, and brand messaging.
-- Digital growth: lead generation systems, SEO basics, content strategy, analytics, and conversion improvement.
-- Automation: workflow automation, customer follow-up systems, forms, CRM support, and task reduction.
-- Practical AI adoption: AI tools, business process support, content workflows, and productivity systems.
-- Education and training: practical lessons, workshops, templates, and guided implementation.
-- Software solutions: lightweight internal tools, dashboards, portals, and future SaaS products.
+- Fashion brand website: an owned place to introduce the designer and present selected work or collections.
+- Digital presentation: clearer organization of brand story, services, portfolio, and customer next steps.
+- Discovery foundation: basic search, analytics, and links connecting the website with Instagram and WhatsApp.
+- Owner guidance: a simple handover that explains how the digital presence works and what to improve next.
+
+Automation, AI products, education products, and SaaS remain future directions rather than launch offers.
 
 ## 1.5 Company Positioning
 
 Approved positioning:
 
-For small businesses that want to compete and grow in the digital economy, Micade provides integrated technology, education, AI, software, and digital growth solutions that turn ideas into practical outcomes.
+Micade helps fashion designers in Lagos build a professional digital presence they can own, understand, and grow.
 
 ## 1.6 Business Direction
 
-Micade should begin with approved service-led growth for local service businesses and gradually expand into education, products, AI systems, SaaS, community, events, and certifications.
+Micade should begin with a focused digital-presence service for Lagos fashion designers and expand only after delivery experience and customer research reveal repeatable needs.
 
 Recommended phased direction:
 
-1. Start with high-value digital growth services for local service businesses.
+1. Interview Lagos fashion designers and validate their most urgent digital-presence problem.
 2. Turn repeated delivery knowledge into templates, playbooks, and training.
 3. Package common systems into reusable software and automation products.
 4. Build scalable education and AI-assisted products.
@@ -77,7 +80,7 @@ Micade should operate by these principles:
 
 Proposed early success measures:
 
-- Number of small businesses served
+- Number of Lagos fashion designers interviewed and served
 - Quality of delivered websites, systems, and automations
 - Improvement in client digital presence
 - Lead generation or conversion improvements where measurable
@@ -87,10 +90,9 @@ Proposed early success measures:
 
 ## 1.9 Decisions Captured
 
-- Micade's company category is integrated digital growth company.
-- The first priority audience is small businesses.
-- The first launch segment is local service businesses.
-- Micade should begin with approved service-led growth for local service businesses.
+- Micade's launch category is founder-led digital presence and growth company.
+- The first launch audience is independent fashion designers in Lagos.
+- The first offer should center on an owned, professional digital presence.
 - Education, AI products, SaaS, community, events, and certifications remain future growth paths.
 
 ## 1.10 Why These Decisions Matter
@@ -102,13 +104,13 @@ They prevent the company from trying to launch too many business models at once,
 ## 1.11 Suggested Improvements
 
 - Define the first three paid service packages.
-- Decide the exact local service business niches to prioritize.
+- Complete at least 10 customer interviews before finalizing package scope and pricing.
 - Define the minimum delivery process for the first client projects.
 - Create a basic pricing and packaging strategy in the Business Plan.
 
 ## 1.12 Important Questions For Approval
 
-1. Which local service niches should be prioritized first?
+1. Which problem do Lagos fashion designers consider most urgent?
 2. Should education be bundled into services from the beginning, or launched later as a separate offer?
 3. Are the proposed initial offer categories approved?
 

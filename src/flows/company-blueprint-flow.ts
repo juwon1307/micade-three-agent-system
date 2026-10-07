@@ -61,11 +61,13 @@ Current phase:
 - Section purpose: ${section.purpose}
 - Primary owner: ${section.owner}
 
-Approved brand foundation:
-- Micade is an integrated digital growth company.
-- First priority audience: small businesses.
-- First launch segment: local service businesses.
-- Working tagline: Learn. Build. Grow.
+Approved launch foundation:
+- Micade is a founder-led digital presence and growth company.
+- First launch audience: independent fashion designers in Lagos.
+- Initial focus: an owned, professional digital presence beyond dependence on Instagram and WhatsApp.
+- Founder advantage: frontend development, digital marketing, and technology instruction.
+- Treat customer problems as hypotheses until interviews validate them.
+- Read doc/Micade_Founder_Story_and_Launch_Positioning_v1.0.md as the source of truth.
 - Voice: balanced, professional, practical, and clear.
 - Visual direction: balanced technology and growth direction.
 

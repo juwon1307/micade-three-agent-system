@@ -27,14 +27,10 @@ const whatWeDo = [
 ];
 
 const audiences = [
-  "Individuals and learners",
-  "Entrepreneurs",
-  "Startups",
-  "SMEs",
-  "Schools",
-  "Churches",
-  "NGOs",
-  "Corporate organizations",
+  "Fashion designers",
+  "Made-to-measure brands",
+  "Emerging fashion labels",
+  "Lagos-based fashion businesses",
 ];
 
 const differences = [
@@ -82,10 +78,10 @@ export default function AboutPage() {
         <div className="content-width about-page-hero-inner">
           <div>
             <p className="eyebrow">About Micade Techie</p>
-            <h1>Technology. Knowledge. Growth.</h1>
+            <h1>I did not understand programming overnight.</h1>
             <p className="lead">
-              Micade Techie helps people and organizations learn, build, and grow through
-              practical technology, digital strategy, and future-ready thinking.
+              Micade grew from a difficult learning journey, a decision to start again,
+              and the discovery that teaching others can turn confusion into confidence.
             </p>
             <div className="action-row">
               <a className="button button-light" href="/contact">Work With Us</a>
@@ -99,17 +95,18 @@ export default function AboutPage() {
       <section className="content-width page-section about-intro-grid">
         <div className="section-heading">
           <p className="eyebrow">Who we are</p>
-          <h2>A digital growth brand built for practical progress.</h2>
+          <h2>A digital company shaped by persistence and teaching.</h2>
         </div>
         <div className="about-copy-stack">
           <p>
-            Micade Techie is an integrated technology and digital growth company. We
-            connect software development, web experiences, digital marketing, AI,
-            automation, training, and consulting into one clear direction.
+            Micade Techie combines frontend development, digital marketing, and
+            technology education. We are beginning with one clear audience: fashion
+            designers in Lagos who need a professional digital home for their work.
           </p>
           <p>
-            We serve learners, founders, small businesses, institutions, and organizations
-            that want technology to become more understandable, useful, and measurable.
+            The wider vision still includes education and useful digital products, but
+            our launch focus is intentionally smaller so we can listen, serve well, and
+            build evidence from real work.
           </p>
         </div>
       </section>
@@ -118,12 +115,21 @@ export default function AboutPage() {
         <div className="content-width page-section about-story-grid">
           <div className="story-card">
             <p className="eyebrow">Our story</p>
-            <h2>Created from the journey of learning, building, and serving.</h2>
+            <h2>Started with a dream, interrupted by difficulty, rebuilt through teaching.</h2>
             <p>
-              Micade Techie started from a founder's journey through frontend development,
-              digital marketing, and technology education. The brand was created to make
-              technology feel less distant and more useful for people with real goals,
-              businesses, and communities to grow.
+              Micade's founder studied Computer Science at Lagos State Polytechnic and
+              moved into frontend development after completing an HND in 2020. Learning
+              was difficult at first, especially alongside financial pressure. A 2022
+              internship at Semicolon Africa brought practical team experience, but an
+              accident interrupted the journey. After recovering, the founder chose to
+              start again from the fundamentals instead of walking away.
+            </p>
+            <p>
+              In 2024, teaching HTML, CSS, Bootstrap, and JavaScript at Uptech Computer
+              Training Academy became the turning point. Explaining the basics to others
+              strengthened the founder's own understanding. Approximately 100 students
+              have been taught so far, including one former student who was supported as
+              she became an instructor and now teaches children remotely through a school.
             </p>
           </div>
           <div className="story-visual-panel">
@@ -192,10 +198,11 @@ export default function AboutPage() {
       <section className="content-width page-section">
         <div className="section-heading">
           <p className="eyebrow">Who we serve</p>
-          <h2>Support for people and organizations at different stages.</h2>
+            <h2>Starting with the people we want to understand deeply.</h2>
           <p>
-            Micade Techie works with audiences who need clearer digital skills, stronger
-            systems, better visibility, or a more confident technology direction.
+              Our first service is being shaped for independent fashion designers in
+              Lagos who rely heavily on Instagram and WhatsApp and want a digital
+              presence they can own and present more professionally.
           </p>
         </div>
         <div className="audience-list">
@@ -259,19 +266,20 @@ export default function AboutPage() {
       </section>
 
       <section className="content-width page-section founder-grid">
-        <div className="founder-photo" role="img" aria-label="Professional founder portrait placeholder" />
+        <div className="founder-photo" role="img" aria-label="Micade Techie founder" />
         <div>
           <p className="eyebrow">Meet the founder</p>
-          <h2>A builder shaped by frontend development, digital marketing, and technology education.</h2>
+          <h2>A developer, marketer, and instructor who knows what starting again feels like.</h2>
           <p>
-            Micade Techie is led by a founder whose background connects the technical,
-            strategic, and educational sides of digital growth. That mix shapes how the
-            company explains technology, builds solutions, and supports people learning new
-            skills.
+            The founder's path connects Computer Science, frontend development, digital
+            marketing, and hands-on instruction. Because the learning journey was not
+            easy, Micade approaches clients with patience: explain the technology, build
+            what has a purpose, and never make a business owner feel excluded from their
+            own project.
           </p>
           <blockquote>
-            "Micade Techie exists to help people understand technology, build with purpose,
-            and grow with confidence."
+            "I had to return to the basics before programming truly became clear. Micade
+            should give business owners that same clarity without making them feel lost."
           </blockquote>
         </div>
       </section>

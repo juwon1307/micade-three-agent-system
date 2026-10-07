@@ -60,9 +60,12 @@ Current phase:
 - Primary owner: ${section.owner}
 
 Micade identity:
-- Micade is a technology, education, AI, software, and digital growth company.
-- Vision: To build Micade into a globally respected technology, education, AI, software, and digital growth company that empowers people and organizations to learn, build, and grow.
-- Mission: To create innovative digital solutions, educational platforms, and growth services that combine technology, artificial intelligence, and practical knowledge to solve real-world problems.
+- Micade is a founder-led digital presence and growth company.
+- First launch audience: independent fashion designers in Lagos.
+- Current mission: help fashion designers build a professional digital presence they can own, understand, and grow.
+- Founder advantage: frontend development, digital marketing, and technology instruction.
+- Wider technology, education, AI, and product ambitions are future direction, not the launch message.
+- Read doc/Micade_Founder_Story_and_Launch_Positioning_v1.0.md as the source of truth.
 
 Working rules:
 - Work only on this section.

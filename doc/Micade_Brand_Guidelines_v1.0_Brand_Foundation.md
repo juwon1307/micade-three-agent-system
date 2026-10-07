@@ -9,37 +9,35 @@ Supporting agent: Enterprise Architecture Agent
 
 ## 1.1 Brand Identity
 
-Micade is a technology, education, AI, software, and digital growth company.
+Micade is a founder-led digital presence and growth company.
 
-Micade exists to help people and organizations learn, build, and grow through practical knowledge, intelligent systems, software solutions, and digital growth services.
+Micade begins by helping fashion designers in Lagos build a professional digital presence they can own, understand, and grow.
 
 Approved identity statement:
 
-Micade is an integrated digital growth company that combines technology, artificial intelligence, education, software, and growth strategy to solve practical problems and create long-term value.
+Micade combines frontend development, digital marketing, and patient guidance to help fashion designers move beyond relying only on Instagram and WhatsApp.
 
 ## 1.2 Vision
 
-To build Micade into a globally respected technology, education, AI, software, and digital growth company that empowers people and organizations to learn, build, and grow.
+To grow from a trusted digital partner for Lagos fashion designers into a wider technology and education company that helps people build with confidence.
 
 ## 1.3 Mission
 
-To create innovative digital solutions, educational platforms, and growth services that combine technology, artificial intelligence, and practical knowledge to solve real-world problems.
+To give fashion designers a professional digital home for their work and explain the technology clearly enough for them to use it with confidence.
 
 ## 1.4 Brand Purpose
 
-Micade's purpose is to make digital transformation practical, accessible, and valuable.
+Micade's purpose is to make digital ownership practical, understandable, and valuable.
 
 The brand should stand for useful innovation rather than technology for its own sake. Every Micade product, service, course, and content asset should help users move from confusion to clarity, from idea to execution, and from effort to measurable growth.
 
 ## 1.5 Target Audiences
 
-Primary approved audience:
+Primary approved launch audience:
 
-- Small businesses that need digital tools, websites, automation, practical AI adoption, education, and growth support.
+- Independent fashion designers in Lagos.
 
-First approved launch segment:
-
-- Local service businesses that need stronger websites, clearer digital presence, better lead generation, workflow automation, practical AI support, and growth systems.
+Their working problems are dependence on Instagram and WhatsApp, difficulty presenting collections professionally, inconsistent customer discovery, and the absence of an owned digital home. These problems remain hypotheses until customer interviews validate them.
 
 Secondary proposed audiences:
 
@@ -65,9 +63,9 @@ Proposed values:
 
 Approved positioning statement:
 
-For small businesses that want to compete and grow in the digital economy, Micade provides integrated technology, education, AI, software, and digital growth solutions that turn ideas into practical outcomes.
+For fashion designers in Lagos who rely heavily on Instagram and WhatsApp, Micade combines frontend development, digital marketing, and patient guidance to create a professional digital home for their brand and a clearer path for customer discovery.
 
-Unlike narrow agencies, course platforms, or software vendors, Micade is designed as an integrated ecosystem where learning, building, automation, and growth work together.
+Unlike a build-and-disappear agency, Micade is shaped by an instructor's approach: explain the work, build it with purpose, and help the owner understand the next step.
 
 ## 1.8 Brand Personality
 
@@ -95,34 +93,29 @@ Micade should not feel:
 
 Proposed promise:
 
-Micade helps people and organizations use technology, AI, education, and digital strategy to build useful skills, better systems, and measurable growth.
+Micade will not leave business owners confused by the technology. We explain what we are building, why it matters, and how it supports the fashion business.
 
 ## 1.10 Decisions Captured
 
-- Micade is positioned first as an integrated digital growth company, not only a website, agency, course platform, or software product.
-- The brand foundation combines technology, education, AI, software, and digital growth.
+- Micade launches as a founder-led digital presence and growth company.
+- Its practical advantage combines frontend development, digital marketing, and teaching.
 - The guiding brand direction is practical, professional, scalable, and outcome-focused.
-- The first priority audience is small businesses.
-- The first approved small-business launch segment is local service businesses.
+- The first approved launch audience is independent fashion designers in Lagos.
 - Learners, entrepreneurs, organizations, partners, employees, and investors remain important secondary audiences.
 
 ## 1.11 Why These Decisions Matter
 
-These decisions protect Micade from becoming too narrow too early.
-
-They allow future work across courses, AI products, SaaS products, mobile apps, services, community, events, and certifications while keeping one clear brand identity.
-
-They also give future website, content, product, and business planning work a stable foundation.
+These decisions prevent Micade from presenting every future ambition as a current offer. A specific launch audience makes the company easier to understand and gives it a market in which to learn, build evidence, and refine its services.
 
 ## 1.12 Suggested Improvements
 
 - Use a balanced voice: professional enough for businesses, simple enough for learners.
-- Create a shorter one-sentence brand description for website and social media use.
+- Interview at least 10 Lagos fashion designers before finalizing offers and pricing.
 
 ## 1.13 Important Questions For Approval
 
-1. Are the proposed values approved, or should any be added, removed, or renamed?
-2. Is the approved positioning statement accurate enough to guide future business and website planning?
+1. Which problem do fashion designers rank as most urgent?
+2. What would make the first offer valuable enough to purchase?
 
 ## 1.14 Recommended Next Section
 

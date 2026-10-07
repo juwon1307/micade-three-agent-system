@@ -9,10 +9,10 @@ export default function ProjectsPage() {
   return (
     <main className="page-main content-width">
       <p className="eyebrow">Projects</p>
-      <h1>Verified Micade Techie work will live here.</h1>
+      <h1>Fashion projects will be shown here when the work is real.</h1>
       <p className="lead">
-        This page is prepared for approved projects, products, and case studies as
-        the Micade Techie portfolio grows. No unverified results or claims are shown.
+        This page is prepared for approved fashion-brand websites and case studies as
+        the Micade Techie portfolio grows. No invented clients, results, or claims are shown.
       </p>
       <div className="notice">
         <strong>Projects are being prepared.</strong>

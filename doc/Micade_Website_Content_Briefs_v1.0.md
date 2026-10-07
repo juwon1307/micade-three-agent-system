@@ -1,13 +1,15 @@
 # Micade Website Content Briefs v1.0
 
 Status: Working draft
-Audience: Small businesses, starting with local service businesses
-Voice: Balanced, professional, practical, and clear
-Working tagline: Learn. Build. Grow.
+Audience: Independent fashion designers in Lagos
+Voice: Human, patient, professional, practical, and clear
+Launch message: A professional digital home for your fashion brand
 
 ## Content Rules
 
-- Explain Micade as an integrated digital growth company.
+- Explain Micade as a founder-led company combining frontend development, digital marketing, and technology instruction.
+- Speak first to Lagos fashion designers and keep the wider company vision secondary.
+- Use the verified founder journey instead of generic claims.
 - Lead with practical business outcomes.
 - Use evidence-based claims only.
 - Mark pricing, proof points, CTA destinations, and provider details as proposed until approved.
@@ -25,7 +27,7 @@ Acceptance: a first-time visitor can explain what Micade does, identify relevanc
 
 Job: Explain why Micade exists and how its integrated growth approach works.
 
-Required sections: purpose and story, integrated digital growth explanation, Learn. Build. Grow. idea, responsible technology principles, current service-led starting point, and future direction clearly marked as future.
+Required sections: verified founder journey, restart after an accident, teaching experience, the combination of development/marketing/instruction, current fashion-designer focus, and future direction clearly marked as future.
 
 Acceptance: the page builds trust without unsupported experience, scale, or outcome claims.
 
@@ -41,11 +43,11 @@ Acceptance: visitors can compare Digital Presence Starter, Growth System Setup, 
 
 Each package page must cover the problem, best-fit customer, outcomes, deliverables, delivery stages, customer inputs, scope boundaries, proposed pricing position, FAQs, and next step.
 
-Digital Presence Starter: for local service businesses with an unclear, outdated, or inconsistent digital presence.
+Digital Presence Starter: for Lagos fashion designers who rely heavily on Instagram and WhatsApp and lack an owned digital home.
 
-Growth System Setup: for local service businesses that need a more repeatable marketing and lead process.
+Growth System Setup: for fashion designers who need a clearer path from discovery to enquiry.
 
-AI and Automation Assist: for small businesses with repetitive work or clear opportunities for practical automation, with human oversight and privacy boundaries made explicit.
+Guided Digital Handover: for fashion business owners who want to understand the website, its connection to current channels, and the next improvement.
 
 Acceptance: a suitable business can determine fit and understand what engagement would require without encountering guaranteed-result claims.
 

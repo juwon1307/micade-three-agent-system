@@ -23,7 +23,12 @@ const initialValues: FormValues = {
   website: "",
 };
 
-export function InquiryForm() {
+type InquiryFormProps = {
+  contactEmail: string;
+  enabled: boolean;
+};
+
+export function InquiryForm({ contactEmail, enabled }: InquiryFormProps) {
   const [values, setValues] = useState(initialValues);
   const [errors, setErrors] = useState<Partial<Record<keyof FormValues, string>>>({});
   const [submitted, setSubmitted] = useState(false);
@@ -73,23 +78,32 @@ export function InquiryForm() {
     }
   }
 
+  if (!enabled) {
+    return (
+      <div className="form-availability" role="status">
+        <p>The secure inquiry form is being connected.</p>
+        {contactEmail ? <a className="button" href={`mailto:${contactEmail}`}>Email Micade directly</a> : <p>Contact details will be available shortly.</p>}
+      </div>
+    );
+  }
+
   if (submitted) {
-    return <div className="form-success" role="status"><h2>Thank you.</h2><p>Your preview inquiry is ready. The production submission connection will be enabled after Micade approves the contact-handling provider.</p><a className="button" href="mailto:hello@micade.example">Email Micade directly -&gt;</a></div>;
+    return <div className="form-success" role="status"><h2>Thank you.</h2><p>Your inquiry has been received. Micade will reply using the email address you provided.</p>{contactEmail ? <a className="button" href={`mailto:${contactEmail}`}>Email Micade directly</a> : null}</div>;
   }
 
   return (
     <form className="inquiry-form" onSubmit={handleSubmit} onFocus={() => { if (!started) { setStarted(true); trackMicadeEvent("contact_form_started"); } }} noValidate>
       <div className="form-grid">
-        <label>Name<input value={values.name} onChange={(event) => updateField("name", event.target.value)} aria-invalid={Boolean(errors.name)} />{errors.name && <span className="field-error">{errors.name}</span>}</label>
-        <label>Email<input type="email" value={values.email} onChange={(event) => updateField("email", event.target.value)} aria-invalid={Boolean(errors.email)} />{errors.email && <span className="field-error">{errors.email}</span>}</label>
-        <label>Business name<input value={values.business} onChange={(event) => updateField("business", event.target.value)} aria-invalid={Boolean(errors.business)} />{errors.business && <span className="field-error">{errors.business}</span>}</label>
-        <label>Business type<select value={values.businessType} onChange={(event) => updateField("businessType", event.target.value)} aria-invalid={Boolean(errors.businessType)}><option value="">Select one</option><option>Home or property service</option><option>Health, wellness, or beauty</option><option>Professional local service</option><option>Other small business</option></select>{errors.businessType && <span className="field-error">{errors.businessType}</span>}</label>
+        <label>Name<input name="name" autoComplete="name" maxLength={100} value={values.name} onChange={(event) => updateField("name", event.target.value)} aria-invalid={Boolean(errors.name)} aria-describedby={errors.name ? "name-error" : undefined} />{errors.name && <span className="field-error" id="name-error">{errors.name}</span>}</label>
+        <label>Email<input name="email" type="email" autoComplete="email" maxLength={254} value={values.email} onChange={(event) => updateField("email", event.target.value)} aria-invalid={Boolean(errors.email)} aria-describedby={errors.email ? "email-error" : undefined} />{errors.email && <span className="field-error" id="email-error">{errors.email}</span>}</label>
+        <label>Business name<input name="business" autoComplete="organization" maxLength={120} value={values.business} onChange={(event) => updateField("business", event.target.value)} aria-invalid={Boolean(errors.business)} aria-describedby={errors.business ? "business-error" : undefined} />{errors.business && <span className="field-error" id="business-error">{errors.business}</span>}</label>
+        <label>Business type<select name="businessType" value={values.businessType} onChange={(event) => updateField("businessType", event.target.value)} aria-invalid={Boolean(errors.businessType)} aria-describedby={errors.businessType ? "business-type-error" : undefined}><option value="">Select one</option><option>Independent fashion designer</option><option>Made-to-measure fashion brand</option><option>Emerging fashion label</option><option>Other fashion business</option></select>{errors.businessType && <span className="field-error" id="business-type-error">{errors.businessType}</span>}</label>
       </div>
-      <label>Website or social link <span className="optional">Optional</span><input type="url" value={values.website} onChange={(event) => updateField("website", event.target.value)} /></label>
-      <label>Main growth challenge<textarea rows={5} value={values.challenge} onChange={(event) => updateField("challenge", event.target.value)} aria-invalid={Boolean(errors.challenge)} />{errors.challenge && <span className="field-error">{errors.challenge}</span>}</label>
-      <label>Preferred next step<select value={values.nextStep} onChange={(event) => updateField("nextStep", event.target.value)} aria-invalid={Boolean(errors.nextStep)}><option value="">Select one</option><option>Start a conversation</option><option>Request an audit</option><option>Discuss a service</option></select>{errors.nextStep && <span className="field-error">{errors.nextStep}</span>}</label>
-      <p className="form-note">Your information is sent only after a destination is configured. Use the email fallback for a live inquiry.</p>
-      {formError && <p className="form-error" role="alert">{formError} <a className="text-link" href="mailto:hello@micade.example">Email Micade directly.</a></p>}
+      <label>Website or social link <span className="optional">Optional</span><input name="website" type="url" inputMode="url" maxLength={500} value={values.website} onChange={(event) => updateField("website", event.target.value)} /></label>
+      <label>What is difficult about presenting your work or handling enquiries today?<textarea name="challenge" rows={5} maxLength={3000} value={values.challenge} onChange={(event) => updateField("challenge", event.target.value)} aria-invalid={Boolean(errors.challenge)} aria-describedby={errors.challenge ? "challenge-error" : undefined} />{errors.challenge && <span className="field-error" id="challenge-error">{errors.challenge}</span>}</label>
+      <label>Preferred next step<select name="nextStep" value={values.nextStep} onChange={(event) => updateField("nextStep", event.target.value)} aria-invalid={Boolean(errors.nextStep)} aria-describedby={errors.nextStep ? "next-step-error" : undefined}><option value="">Select one</option><option>Share my experience for the research</option><option>Discuss a fashion brand website</option><option>Ask a question</option></select>{errors.nextStep && <span className="field-error" id="next-step-error">{errors.nextStep}</span>}</label>
+      <p className="form-note">By sending this form, you agree that Micade may use these details to respond to your inquiry. Read the <a className="text-link" href="/privacy">privacy notice</a>.</p>
+      {formError && <p className="form-error" role="alert">{formError} {contactEmail ? <a className="text-link" href={`mailto:${contactEmail}`}>Email Micade directly.</a> : null}</p>}
       <button className="button" type="submit" disabled={submitting}>{submitting ? "Sending..." : "Send inquiry"}</button>
     </form>
   );

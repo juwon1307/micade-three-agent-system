@@ -2,13 +2,15 @@ export function createWebsiteContentBriefStarterDraft(): string {
   return `# Micade Website Content Briefs v1.0
 
 Status: Working draft
-Audience: Small businesses, starting with local service businesses
-Voice: Balanced, professional, practical, and clear
-Working tagline: Learn. Build. Grow.
+Audience: Independent fashion designers in Lagos
+Voice: Human, patient, professional, practical, and clear
+Launch message: A professional digital home for your fashion brand
 
 ## Content Rules
 
-- Explain Micade as an integrated digital growth company.
+- Explain Micade as a founder-led company combining frontend development, digital marketing, and technology instruction.
+- Speak first to Lagos fashion designers; keep broader ambitions secondary.
+- Use the verified founder story instead of generic company language.
 - Lead with practical business outcomes, not technical features.
 - Use evidence-based claims only.
 - Mark pricing, proof points, CTA destinations, and provider details as proposed until approved.
@@ -16,15 +18,15 @@ Working tagline: Learn. Build. Grow.
 
 ## Homepage
 
-Audience: Small-business owners and local service business owners.
+Audience: Independent fashion designers in Lagos.
 
 Job: Explain Micade quickly and guide a qualified visitor toward the next action.
 
-Key message: Micade helps small businesses learn, build, and grow through practical digital systems, services, and automation.
+Key message: Micade helps fashion designers build a professional digital presence they can own, understand, and grow beyond Instagram and WhatsApp.
 
 Required sections:
 
-- Positioning statement and tagline.
+- Focused positioning statement and launch message.
 - Audience and business problems served.
 - Three service package summaries.
 - How engagement works.
@@ -39,15 +41,15 @@ Acceptance criteria: A first-time visitor can explain what Micade does, identify
 
 ## About Page
 
-Audience: Visitors evaluating trust, fit, and Micade's broader direction.
+Audience: Fashion designers evaluating trust, fit, and the person behind Micade.
 
-Job: Explain why Micade exists and how its integrated growth approach works.
+Job: Explain the founder's difficult learning journey, restart after an accident, teaching experience, and reason for creating Micade.
 
 Required sections:
 
-- Purpose and company story.
-- Integrated digital growth company explanation.
-- Learn. Build. Grow. operating idea.
+- Verified founder story.
+- Frontend development, digital marketing, and teaching combination.
+- Focus on Lagos fashion designers.
 - Practical and responsible technology principles.
 - Current service-led starting point.
 - Future direction, without presenting future products as available today.
@@ -60,7 +62,7 @@ Acceptance criteria: The page builds trust without making unsupported experience
 
 ## Services Page
 
-Audience: Small-business owners comparing ways to improve their digital growth.
+Audience: Lagos fashion designers considering an owned digital presence.
 
 Job: Help a visitor select an appropriate starting package.
 
@@ -80,7 +82,7 @@ Acceptance criteria: Visitors can compare all three packages and reach each pack
 
 ## Digital Presence Starter Page
 
-Audience: Local service businesses with an unclear, outdated, or inconsistent digital presence.
+Audience: Lagos fashion designers who rely heavily on Instagram and WhatsApp and lack an owned digital home.
 
 Job: Explain how Micade can establish a credible starting presence.
 
