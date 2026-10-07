@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vinext dev",
     "build": "vinext build",
-    "start": "vinext start"
+    "start": "vinext start",
+    "test:backend": "node --test app/api/inquiry/route.test.ts"
   },
   "dependencies": {
     "next": "16.2.6",

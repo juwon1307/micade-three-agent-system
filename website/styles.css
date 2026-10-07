@@ -180,6 +180,7 @@ h3 { font-size: var(--micade-font-size-lg); margin: 0 0 var(--micade-space-3); }
 .contact-options span { color: var(--micade-color-growth-strong); font-size: var(--micade-font-size-xs); font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
 .contact-options strong { color: var(--micade-color-brand); overflow-wrap: anywhere; }
 .inquiry-form { display: grid; gap: var(--micade-space-4); margin-top: var(--micade-space-6); }
+.form-honeypot { height: 1px; left: -10000px; overflow: hidden; position: absolute; top: auto; width: 1px; }
 .form-grid { display: grid; gap: var(--micade-space-4); grid-template-columns: repeat(2, 1fr); }
 .inquiry-form label { color: var(--micade-color-brand); display: grid; font-size: var(--micade-font-size-sm); font-weight: 700; gap: var(--micade-space-2); }
 .optional { color: var(--micade-color-ink-muted); font-size: var(--micade-font-size-xs); font-weight: 400; }
